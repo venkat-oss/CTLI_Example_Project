@@ -1,0 +1,28 @@
+.congregate2{
+
+	min-height: 800px;
+}
+
+.currency{
+	position: absolute;
+	display: inline;
+	float:right;
+	top:20px;
+	left: 80%;
+}
+
+
+
+.currency>p{
+
+	display: none;
+}
+
+
+.footer{
+	position:absolute;
+	display:block;
+	top:155%;
+	width:100%;
+	height:auto;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rockford University</title>
+<link rel="stylesheet" type="text/css" href="css/registration.css"/>
+<script type="text/javascript" src="js/jquery1-7-2.js"></script>
+</head>
+<body>
+<div class="congregate2">
+<form id="form1"> 
+<h1> Registration Form </h1>
+<hr>
+<div class="radiogrp">
+<label for="Term">Term: </label> 
+<input type="radio" name="Term" value="Term"> Spring </input>
+<input type="radio" name="Term" value="Term"> Summer </input>
+<input type="radio" name="Term" value="Term"> Fall </input> &nbsp; &nbsp;
+<hr>
+<label for="Term">Degree: </label> 
+<input type="radio" name="Degree" value="Degree"> Undergraduate </input>
+<input type="radio" name="Degree" value="Degree"> Graduate </input> 
+<hr>
+</div>
+
+<div class="namegrp">
+<input type="text" id="Firstname" name="username" placeholder="First Name" required title="Please enter your valid #First name as mentioned on your Passport" size="24"/>
+<input type="text" id="Lastname" name="username" placeholder="Last Name" required title="Please enter your valid #Last name" size="22"/>
+</div>
+
+
+<div class="pwdgrp">
+<input type="password" name="password" id="password" placeholder="Enter your password" title="choose your password" required size="53"/>
+<input type="email" id="useremail" name="useremail" placeholder="Enter email-id" required size="53"/>
+<input type="text" id="number" name="number" placeholder="Enter your phone number" required size="53"/>
+</div>
+
+<div class="birthday">
+<input type="date" id="dateInput" name="dateInput" placeholder="Birthdate" />
+</div>
+<hr>
+<div class="course">
+<select name="sel" id="s" required>
+<option value=0>--Select Course Type--</option>
+<option value=1>Campus</option>
+<option value=2>Online<option>
+</select>
+
+<select name="sel" id="s" required>
+<option value=0>--Select Your Course--</option>
+<option value=1>Course 1</option>
+<option value=2>Course 2</option>
+<option value=3>Course 3</option>
+<option value=4>Course 4</option>
+<option value=5>Course 5</option>
+</select>
+</div>
+<hr>
+<label for="gender" >Male </label>
+<input type="radio" name="gender" value="male">  </input>
+<label for="gender" >Female </label>
+<input type="radio" name="gender" value="female"> </input>
+<hr>
+<h4  style="color:#ff0000">By clicking Register, you agree to our <br>Terms and that you have read our Data Policy. </h4> 
+<input type="submit" name="Register" value="Register" onclick="store()" style="height:32px"> 
+</form>
+</center></div>	
+</div>
+<aside><div class="login">
+<form>
+<h2>Login</h2>
+<hr>
+Username: <input type="text">   
+Password: <input type="text">   
+<button>Login</button>
+<hr>
+<a href="#/home">Forgot your details?</a>
+</form>
+</div></aside>
+</body>
+</html>

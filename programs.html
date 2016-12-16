@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rockford University</title>
+<link rel="stylesheet" type="text/css" href="css/nav.css"/>
+<link rel="stylesheet" type="text/css" href="css/home.css"/>
+<link rel="stylesheet" type="text/css" href="css/programs.css"/>
+<script type="text/javascript" src="js/jquery1-7-2.js"></script>
+<script type="text/javascript" src="js/programs.js"></script>
+<script type="text/javascript" src="js/webworker.js"></script>
+<script type="text/javascript" src="js/currConProject.js"></script>
+<script type="text/javascript">
+
+function updatecanvas(){
+   var canva = document.getElementById("can1");
+   if (canva.getContext){
+   var c = canva.getContext("2d");
+   c.font = "20px verdana";
+   c.clearRect(400,100,120,40);
+   c.fillText($("#fee1").text(),400,130);
+   c.clearRect(400,300,120,40);
+   c.fillText($("#fee2").text(),400,330);
+   c.clearRect(400,500,120,40);
+   c.fillText($("#fee3").text(),400,530);
+   c.clearRect(400,750,120,40);
+   c.fillText($("#fee4").text(),400,780);
+   c.clearRect(400,950,120,40);
+   c.fillText($("#fee5").text(),400,980);
+
+    }
+}
+
+
+</script>
+</head>
+<body onload="buildCanvas();updatecanvas();">
+<div class="congregate2">
+<canvas id="can1" width="900px" height="1150px">
+<b>Your browser does not support canvas</b>
+</canvas>
+
+<div class="currency">
+<span>Select Currency: </span>
+    <select value="currencySelected" id="crrId1" onclick="convertCurrency()">
+        <option value="Rupees">Rupees</option>
+        <option value="USD">USD</option>
+        <option value="Yuan">Chinese yuan</option>
+        <option value="Pound">Pound</option>
+    </select>
+    <p id="fee1"></p>
+    <p id="fee2"></p>
+    <p id="fee3"></p>
+    <p id="fee4"></p>
+    <p id="fee5"></p>
+</div>
+</div>
+<aside><div class="login">
+<form>
+<h2>Login</h2>
+<hr>
+Username: <input type="text">   
+Password: <input type="text">   
+<button>Login</button>
+<hr>
+<a href="#/home">Forgot your details?</a>
+</form>
+</div></aside>
+</body>
+</html>

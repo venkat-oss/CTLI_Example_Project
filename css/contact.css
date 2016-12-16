@@ -1,0 +1,65 @@
+
+#map{
+	position: relative;
+	display: inline-block;
+	margin: 0 0 0 0;
+	padding: 0px;
+	z-index: 1;
+	min-height: 700px;
+	width:100%;
+	
+}
+
+.login{
+
+	background-color: white;
+	min-height: 700px;
+	margin:0 0 0 0;
+	border:0 0 0 0 ;
+	padding-top:0px;
+	padding-bottom:0px;
+	border-radius:5px;
+}
+
+
+a{
+	text-decoration:none;
+}
+
+h1,h4{
+
+	text-align: justify-all;
+	margin: 0 0 0 0;
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
+
+.login a{
+	margin: 0 0 0 0;
+	text-align: justify-all;
+	padding: 5px;
+	padding-left: 15px;
+}
+
+.login p{
+	margin: 0 0 0 0;
+	text-align: justify-all;
+	padding: 5px;
+	padding-left: 15px;
+}
+
+
+hr{
+	margin: 0 0 0 0;
+	padding: 0px;
+}
+
+
+.footer{
+	position:absolute;
+	display:block;
+	top:105%;
+	width:100%;
+	height:auto;
+}

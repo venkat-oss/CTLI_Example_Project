@@ -1,0 +1,48 @@
+
+
+
+.para{
+	margin-top:0; 
+	margin-right:8px; 
+	margin-left:3px;
+	text-align: justify-all;
+	font-size:15px;
+}
+
+.congregate2{
+	
+	height:100%;
+}
+
+
+(h1,h2){
+
+	text-align: left;
+	margin: 0 0 0 0;
+	padding:0px;
+	padding-bottom: 5px;
+}
+
+h1{
+	text-align: center;
+	
+}
+
+#campusimg{
+	position: relative;
+	float: center;
+	width: 100%;
+	height: 80px;
+	margin-left: 5px;
+	border-radius: 4px;
+	overflow:hidden;
+} 
+
+.footer{
+	position:absolute;
+	display:block;
+	top:110%;
+	width:100%;
+	height:auto;
+}
+
